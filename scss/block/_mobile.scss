@@ -1,0 +1,110 @@
+.mobile {
+  background-color: #d0eafc;
+}
+.mobile__block {
+  padding-top: 16px;
+  text-align: center;
+}
+.mobile__name {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.mobile__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #1e3240;
+}
+.mobile__smp {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  color: #1e3240;
+}
+.mobile__img {
+  max-width: 192px;
+  max-height: 45px;
+}
+.mobile__btn {
+  margin-top: 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 160px;
+  height: 40px;
+  background: var(--prime);
+}
+.mobile__sap__img {
+  margin-top: 16px;
+}
+.mobile {
+  display: flex;
+  align-items: center;
+}
+
+// .mobile::after{
+//     content: "";
+//     background-image: url("../../img/heero.svg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: inline-block;
+//     width: 30px;
+//     height: 30px;
+// }
+@media screen and (min-width: 600px) {
+  .mobile__block {
+    padding-top: 50px;
+  }
+  .mobile__img {
+    max-width: 308px;
+    max-height: 73px;
+  }
+  .mobile__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #1e3240;
+  }
+  .mobile__smp {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    color: #1e3240;
+  }
+  .mobile__btn {
+    margin-top: 16px;
+    border-radius: 8px;
+    width: 160px;
+    height: 56px;
+  }
+  .mobile__sap__img{
+    margin-top: 31px;
+  }
+}
+@media screen and (min-width: 900px) {
+    .mobile__block{
+        gap: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .mobile{
+        margin-top: 10px;
+    }
+    .mobile__block{
+        text-align: start;
+    }
+    .mobile__name{
+      text-align: start;
+    }
+    .mobile__text{
+        padding-right: 50px
+    }
+
+}

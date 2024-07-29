@@ -1,0 +1,255 @@
+
+.footer__nome {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__block {
+    margin-top: 40px;
+}
+
+.footer__text_tx {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--05);
+}
+
+.footer__list {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    color: var(--03);
+    text-align: start;
+}
+
+.footer__sape {
+    margin-top: 24px;
+}
+
+.footer__sap {
+    width: 40px;
+    height: 50px;
+    
+}
+
+.footer__nam {
+    flex-shrink: 0;
+}
+
+.footer__linc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.footer__apasiti {
+    margin-top: 24px;
+}
+
+.footer__of {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.footer__wrapper {
+    margin-top: 16px;
+}
+
+.footer__spn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--1);
+}
+
+.footer__no__weap {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--06);
+    margin-top: 4px;
+    width: 198px;
+}
+
+.footer__open__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+    margin-top: 4px;
+}
+
+.header__start__mein {
+    margin-top: 16px;
+}
+
+.footer__open__list {
+    margin-top: 16px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.footer__edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.footer__FILE {
+    text-align: center;
+}
+
+
+.footer_box{
+    display: none;
+}
+.header_start_block{
+    margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+    .footer__apasiti {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+.desktop{
+    display: none;
+}
+.header_start_block{
+    margin-bottom: 0;
+}
+    .footer__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .footer_lide {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .footer__flex {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .footer__sape {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6px;
+    }
+
+    .footer__sap {
+        width: 39px;
+        height: 45px;
+    }
+
+    .footer__open__text {
+        display: none;
+    }
+
+    .footer_lg {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--prime);
+        margin-top: 20px;
+        margin-bottom: 33px;
+    }
+
+    .footer_wrap {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--1);
+        margin-bottom: 8px;
+    }
+    .footer_box{
+        display: block;
+    }
+}
+@media screen and (min-width: 1000px){
+   .footer__edit{
+    display: none;
+   }
+   .footer__wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   }
+   .footer__sape{
+    display: block;
+   }
+
+   .footer__sap {
+    width: 45px;
+    height: 50px;
+}
+   .footer__apasiti{
+    display: block;
+   }
+   .footer__wrapper{
+    margin-top: 0;
+    display: block;
+   }
+   .footer_box{
+    display: none;
+   }
+   .footer_lide{
+    display: block;
+   }
+   .footer__list{
+    width: 273px;
+    margin-top: 24px;
+   }
+   .footer__apasiti{
+    margin-top: 10px;
+   }
+   .footer__nome{
+    display: block;
+   }
+   .footer__sape{
+    margin-top: 0px;
+    margin-bottom: 0;
+   }
+   .desktop{
+    display: block;
+   }
+   .desktop_zakaz{
+    display: block;
+    margin-top: 0;
+   }
+   .header__start__mein{
+    margin-top: 0;
+   }
+   .footer__opem{
+    margin-top: 20px;
+   }
+   .footer_box{
+    margin-top: 20px;
+   }
+   .header_start_block{
+    margin-top: 20px;
+   }
+   .footer__sape{
+    margin-bottom: 30px;
+   }
+   
+}

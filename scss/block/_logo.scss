@@ -1,0 +1,190 @@
+.logo__door {
+  margin-top: 30px;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.logo__nam {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--1);
+  margin-top: 10px;
+}
+.logo__open {
+  text-align: center;
+}
+.logo__text {
+  padding-top: 25px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--prime);
+}
+
+.logo__section {
+  text-align: center;
+}
+.logo__center__sap {
+  display: none;
+}
+.logo__img {
+  width: 200px;
+}
+.logo__pro {
+  margin-top: 16px;
+}
+.logo__ap {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  color: var(--prime);
+}
+.logo__center {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  margin-top: 8px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 23px;
+  color: var(--1);
+}
+.logo__flex {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.logo__text__sap__1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  color: var(--06);
+}
+.logo__text__sap__1::before {
+  content: "";
+  background-image: url(../../img/color.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.logo__apasiti {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.logo__spn {
+  padding-left: 20px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  background: var(--prime);
+}
+.logo__spn::after {
+  content: "";
+  background-image: url(../../img/korzinka.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.logo__spn__nam {
+  display: none;
+}
+.logo__name {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.logo__text__sap__open {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--prime);
+}
+.logo__text__sap__open__1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: right;
+  color: var(--06);
+}
+.logo__btn {
+  display: none;
+}
+.logo__section {
+  // margin-bottom: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  padding: 16px 14px;
+  margin-bottom: 30px;
+}
+.logo__open {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  // grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+@media screen and (min-width: 900px) {
+  .logo__btn {
+    display: block;
+  }
+  .logo__btn__sap {
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 266px;
+    height: 56px;
+    background: var(--prime);
+  }
+  .logo__btn__sap::before{
+    content: "";
+    background-image: url(../img/korzinka.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+  }
+  .logo__spn {
+    display: none;
+  }
+  .logo__spn__nam {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--1);
+  }.logo__btn__sap:hover{
+    background-color: chartreuse;
+  }
+}
